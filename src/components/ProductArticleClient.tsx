@@ -54,7 +54,6 @@ function ProductContent({ product, relatedProducts }: { product: ProductData, re
                         fill
                         priority
                         className="object-cover"
-                        unoptimized
                     />
                     {/* Gradient Overlay for text readability */}
                     <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/20" />
@@ -132,8 +131,7 @@ function ProductContent({ product, relatedProducts }: { product: ProductData, re
                                 alt="Detail view"
                                 fill
                                 className="object-cover scale-110 transition-transform duration-1000 group-hover:scale-105" // Subtle zoom out on hover
-                                unoptimized
-                            />
+                                    />
                         </motion.div>
                         <motion.div 
                             initial={{ opacity: 0, x: 100 }}
@@ -231,11 +229,9 @@ function ProductContent({ product, relatedProducts }: { product: ProductData, re
                                 >
                                     <div className="aspect-[3/4] relative overflow-hidden bg-stone-200 mb-4">
                                         <Image
-                                            src={p.image}
                                             alt={p.name}
                                             fill
                                             className="object-cover transition-transform duration-700 group-hover:scale-110"
-                                            unoptimized
                                         />
                                     </div>
                                     <h4 className="font-serif text-lg text-stone-900 group-hover:text-stone-600 transition-colors">{p.name}</h4>

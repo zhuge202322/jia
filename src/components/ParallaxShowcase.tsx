@@ -212,7 +212,6 @@ export default function ParallaxShowcase({ products = [], heroPost, hotSales = [
                    alt={hero.title}
                    fill
                    className="object-cover transition-transform duration-1000 group-hover:scale-105"
-                   unoptimized // 直接加载原图，跳过 Next.js 优化，解决本地端口加载失败问题
                  />
                  <div className="absolute bottom-8 left-8 bg-white/90 backdrop-blur p-6 max-w-xs shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500 transform translate-y-4 group-hover:translate-y-0">
                     <p className="font-serif text-xl mb-1">{hero.title}</p>
@@ -248,7 +247,6 @@ export default function ParallaxShowcase({ products = [], heroPost, hotSales = [
                    alt="Detail" 
                    className="w-full aspect-square grayscale hover:grayscale-0 transition-all duration-700 shadow-2xl" 
                    yOffset={-50}
-                   unoptimized // 直接加载原图，解决本地图片不显示问题
                    diamond={true} // 菱形剪裁
                  />
                </motion.div>
@@ -499,7 +497,6 @@ export default function ParallaxShowcase({ products = [], heroPost, hotSales = [
                                     alt={designer.name} 
                                     fill 
                                     className="object-cover grayscale hover:grayscale-0 transition-all duration-700" 
-                                    unoptimized // 直接加载原图，解决本地图片显示问题
                                   />
                                </div>
                                <div className="pt-4 text-center">

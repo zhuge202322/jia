@@ -158,7 +158,6 @@ export default function CollectionClient({ initialProducts }: CollectionClientPr
                         alt={product.name}
                         fill
                         className="object-cover transition-transform duration-700 group-hover:scale-105"
-                        unoptimized // Enable unoptimized for local WP images
                     />
                     {/* Hover Overlay */}
                     <div className="absolute inset-0 bg-stone-900/0 group-hover:bg-stone-900/10 transition-colors duration-500" />
