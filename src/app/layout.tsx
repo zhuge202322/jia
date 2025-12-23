@@ -20,14 +20,14 @@ const lato = Lato({
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://www.hcfurnituresupply.com"),
   title: {
-    default: "HC Furniture Supply | Luxury Furniture",
+    default: "HC Furniture Supply | Luxury Hotel, Office & Luxury Residential Project Furniture Expert",
     template: "%s | HC Furniture Supply"
   },
   description: "HC Furniture Supply provides professional custom furniture solutions for Luxury Hotels, Modern Offices, and Luxury Residential projects. Global supply chain expert based in China.",
   keywords: ["Custom Furniture", "Luxury Hotel Furniture", "Modern Office Furniture", "Residential Projects", "HC Furniture Supply", "China Furniture Supply", "Global Supply Chain"],
   authors: [{ name: "HC Furniture Supply" }],
   openGraph: {
-    title: "HC Furniture Supply | Luxury Furniture",
+    title: "HC Furniture Supply | Luxury Hotel, Office & Luxury Residential Project Furniture Expert",
     description: "HC Furniture Supply provides professional custom furniture solutions for Luxury Hotels, Modern Offices, and Luxury Residential projects. Global supply chain expert based in China.",
     url: "/",
     siteName: "HC Furniture Supply",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "HC Furniture Supply | Luxury Furniture",
+    title: "HC Furniture Supply | Luxury Hotel, Office & Luxury Residential Project Furniture Expert",
     description: "HC Furniture Supply provides professional custom furniture solutions for Luxury Hotels, Modern Offices, and Luxury Residential projects. Global supply chain expert based in China.",
     images: ["/images/og-image.jpg"],
   },
