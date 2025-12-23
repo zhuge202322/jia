@@ -106,10 +106,10 @@ export default function ParallaxShowcase({ products = [], heroPost, hotSales = [
     });
 
     // Strip HTML from excerpt
-    const excerpt = heroPost.excerpt ? heroPost.excerpt.replace(/<[^>]+>/g, '').trim() : "Every curve is a deliberate choice, every material tells a story of the earth. We design spaces for contemplation.";
+    const excerpt = heroPost.excerpt ? heroPost.excerpt.replace(/<[^>]+>/g, '').trim() : "Based in Dongguan, Serving Global Furniture Brands";
 
     return {
-        title: heroPost.title || "Sculpting Silence",
+        title: heroPost.title || "Custom Furniture Manufacturer for Europe & North America",
         excerpt: excerpt,
         leftImage: articleImage,
         rightImage: featuredImage
@@ -117,8 +117,8 @@ export default function ParallaxShowcase({ products = [], heroPost, hotSales = [
   }, [heroPost]);
 
   const hero = heroData || {
-      title: "Sculpting Silence",
-      excerpt: "Every curve is a deliberate choice, every material tells a story of the earth. We design spaces for contemplation.",
+      title: "Custom Furniture Manufacturer for Europe & North America",
+      excerpt: "Based in Dongguan, Serving Global Furniture Brands",
       leftImage: "/images/02.png",
       rightImage: "/images/03.png"
   };
