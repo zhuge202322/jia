@@ -47,10 +47,9 @@ export default function ContactPage() {
             </div>
 
             <div className="mb-16">
-                <h3 className="font-serif text-3xl mb-8">Shanghai Showroom</h3>
+                <h3 className="font-serif text-3xl mb-8">Global Supply Chain</h3>
                 <p className="font-sans text-stone-500 leading-relaxed mb-6 text-lg">
-                    No. 88, Xintiandi <br/>
-                    Shanghai, China
+                    HC Furniture Supply provides professional custom furniture solutions for Luxury Hotels, Modern Offices, and Luxury Residential projects. Global supply chain expert based in China.
                 </p>
                 <div className="space-y-2">
                     <a href="mailto:mahoch1996@outlook.com" className="block text-stone-900 hover:text-stone-500 transition-colors border-b border-stone-300 pb-1 w-fit">mahoch1996@outlook.com</a>
