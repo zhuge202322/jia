@@ -92,7 +92,7 @@ export default function ParallaxShowcase({ products = [], heroPost, hotSales = [
 
     // Fix relative URLs (if WP returns /wp-content/...)
     if (articleImage.startsWith('/')) {
-        articleImage = `http://localhost:6620${articleImage}`;
+        articleImage = `http://45.145.229.20:2025${articleImage}`;
     }
 
     // Featured Image for "Right Picture"
@@ -106,10 +106,10 @@ export default function ParallaxShowcase({ products = [], heroPost, hotSales = [
     });
 
     // Strip HTML from excerpt
-    const excerpt = heroPost.excerpt ? heroPost.excerpt.replace(/<[^>]+>/g, '').trim() : "Based in Dongguan, Serving Global Furniture Brands";
+    const excerpt = heroPost.excerpt ? heroPost.excerpt.replace(/<[^>]+>/g, '').trim() : "Every curve is a deliberate choice, every material tells a story of the earth. We design spaces for contemplation.";
 
     return {
-        title: heroPost.title || "Custom Furniture Manufacturer for Europe & North America",
+        title: heroPost.title || "Sculpting Silence",
         excerpt: excerpt,
         leftImage: articleImage,
         rightImage: featuredImage
@@ -117,8 +117,8 @@ export default function ParallaxShowcase({ products = [], heroPost, hotSales = [
   }, [heroPost]);
 
   const hero = heroData || {
-      title: "Custom Furniture Manufacturer for Europe & North America",
-      excerpt: "Based in Dongguan, Serving Global Furniture Brands",
+      title: "Sculpting Silence",
+      excerpt: "Every curve is a deliberate choice, every material tells a story of the earth. We design spaces for contemplation.",
       leftImage: "/images/02.png",
       rightImage: "/images/03.png"
   };
