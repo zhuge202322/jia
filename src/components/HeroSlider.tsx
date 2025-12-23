@@ -9,19 +9,22 @@ const slides = [
     id: 1,
     image: "/images/02.png",
     title: "Modern Essence",
-    subtitle: "Redefining Spaces"
+    subtitle: "Custom Furniture Manufacturer for Europe & North America",
+    description: "Global Supply Chain Expert based in China"
   },
   {
     id: 2,
     image: "/images/03.png",
     title: "Natural Harmony",
-    subtitle: "Organic Materials"
+    subtitle: "Custom Furniture Manufacturer for Europe & North America",
+    description: "Global Supply Chain Expert based in China"
   },
   {
     id: 3,
     image: "/images/04.png",
     title: "Timeless Comfort",
-    subtitle: "Italian Craftsmanship"
+    subtitle: "Custom Furniture Manufacturer for Europe & North America",
+    description: "Global Supply Chain Expert based in China"
   }
 ];
 
@@ -83,6 +86,9 @@ export default function HeroSlider() {
           </h2>
           <p className="font-sans text-sm md:text-base text-stone-200 tracking-[0.2em] uppercase">
             {slides[currentIndex].subtitle}
+          </p>
+          <p className="font-sans text-xs md:text-sm text-stone-300 tracking-[0.2em] uppercase mt-2">
+            {slides[currentIndex].description}
           </p>
         </motion.div>
       </div>
