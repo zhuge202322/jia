@@ -179,7 +179,7 @@ export function Navbar() {
                     transition={{ delay: 0.5 }}
                     className="mt-12 text-stone-500 text-xs uppercase tracking-widest"
                 >
-                    Via Montenapoleone, 12 <br/> Milano, Italy
+                    Houjie Town, Dongguan City <br/> Guangdong, China
                 </motion.div>
             </motion.div>
         )}

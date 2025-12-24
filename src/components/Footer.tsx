@@ -12,7 +12,7 @@ export default function Footer() {
             <div className="md:col-span-4">
               <h2 className="font-serif text-3xl text-white mb-6">HC Furniture Supply</h2>
               <p className="font-sans text-sm leading-relaxed max-w-xs mb-8">
-                Curating the finest Italian design since 1985. We believe in the poetry of space and the silent language of objects.
+                Professional custom furniture manufacturer based in China. We specialize in high-end solutions for Luxury Hotels, Offices, and Residential projects with global delivery.
               </p>
               <p className="text-xs uppercase tracking-widest text-stone-600">© 2024 HC Furniture Supply. All Rights Reserved.</p>
             </div>

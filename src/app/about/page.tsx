@@ -170,9 +170,9 @@ export default function AboutPage() {
         <div className="container mx-auto px-6">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
                 {[
-                    { value: 2, unit: "亿", label: "年产值" },
-                    { value: 180, unit: "家", label: "专卖店" },
-                    { value: 30000, unit: "平", label: "厂房面积" }
+                    { value: 200, unit: "M", label: "Annual Value" },
+                    { value: 180, unit: "", label: "Showrooms" },
+                    { value: 30000, unit: "sqm", label: "Factory Area" }
                 ].map((stat, i) => (
                     <Counter 
                         key={i} 
@@ -195,7 +195,7 @@ export default function AboutPage() {
             className="mx-auto mb-6 opacity-20"
          />
          <p className="text-[10px] tracking-widest uppercase text-stone-400">
-            © 2024 HC Furniture Supply · Milan · Shanghai · New York
+            © 2024 HC Furniture Supply
          </p>
       </footer>
 
